@@ -113,6 +113,7 @@ function iniciarSesion(e){
             if(response.data.success){
                 setMiLogin(true);
                 document.getElementById("form_login").style.display = "none";
+                console.log(response.data.body)
             }else{
                 setMiLogin(false);
                 alert("Error de usuario y/o contraseña");

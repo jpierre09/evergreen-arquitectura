@@ -62,7 +62,7 @@ export const Menu = (props) => {
             <div className="navbar-nav">
               <NavLink to="" className="nav-link  h5  text-center" onClick={op_registrar} >Registrar usuarios</NavLink>
               <NavLink to="" className="nav-link  h5  text-center" onClick={op_listar} >Lista de usuarios</NavLink>
-              <NavLink to="" className="nav-link  h5  text-center" onClick={op_estadistica} >Indicadores</NavLink>
+              {/* <NavLink to="" className="nav-link  h5  text-center" onClick={op_estadistica} >Indicadores</NavLink> */}
               <a className="nav-link  h5  text-center"  style={{color:"green"}}  href=" "  onClick={ cerrarSesion } >Cerrar Sesión</a>
             </div>
           </div>
